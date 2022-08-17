@@ -1,6 +1,9 @@
-package ru.dan.redis.serialize;
+package ru.dan.redis.service;
 
 import org.springframework.stereotype.Service;
+import ru.dan.redis.serialize.BytesToTechDateConverter;
+import ru.dan.redis.serialize.TechDate;
+import ru.dan.redis.serialize.TechDateToBytesConverter;
 
 import java.util.Arrays;
 import java.util.List;

@@ -7,7 +7,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import ru.dan.redis.serialize.JacksonSerializeService;
+import ru.dan.redis.service.JacksonSerializeService;
 
 @Slf4j
 @SpringBootApplication
